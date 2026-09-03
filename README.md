@@ -67,7 +67,8 @@ nordic-gdp-health-panel-stata/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── run_analysis.do
+├── replication/
+│   └── run_analysis.do
 ├── data/
 │   ├── README.md
 │   ├── raw/
