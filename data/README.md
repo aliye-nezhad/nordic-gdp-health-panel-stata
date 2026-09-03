@@ -4,11 +4,11 @@
 
 | File | Status | Purpose |
 | --- | --- | --- |
-| `Aliyeftn.stata.xlsx` | Historical input | Original workbook used by `analysis.do` |
-| `final_panel_dataset.dta` | Generated output | Processed panel created by `analysis.do` |
+| `raw/nordic_gdp_health_panel_2000_2018.xlsx` | Historical input | Original workbook used by `run_analysis.do` |
+| `processed/nordic_gdp_health_panel_2000_2018.dta` | Generated output | Analysis-ready panel created by `run_analysis.do` |
 
-`analysis.do` imports cells `A2:H77` from `Sheet1`. It does not use the
-formula-generated copies in columns J:Q because all logarithms are recreated in
+`run_analysis.do` imports cells `A2:H77` from `Sheet1`. It does not use the
+formula-generated copies in columns J:Q because the logarithms are recreated in
 Stata.
 
 ## Variables
@@ -24,15 +24,13 @@ Stata.
 | G | `age_dependency` | Age dependency ratio |
 | H | `population` | Population field |
 
-The script creates `lngdp`, `lnl`, `lna`, and `lnp` as natural logarithms. It
-also saves fixed-effects fitted values and residuals in the generated `.dta`
-file.
+The script creates `lngdp`, `lnl`, `lna`, and `lnp` as natural logarithms.
 
 ## Panel Structure
 
 The dataset is strongly balanced:
 
-- 4 countries;
+- four countries;
 - 19 annual observations per country;
 - 2000 through 2018; and
 - 76 observations in total.
@@ -51,6 +49,5 @@ that depend on this field require particular caution.
 
 ## Reproducibility
 
-The raw workbook is not overwritten. Running `analysis.do` from the repository
-root regenerates `final_panel_dataset.dta` and all files under `outputs/`.
-
+The raw workbook is not overwritten. Running `run_analysis.do` from the repository
+root regenerates `processed/nordic_gdp_health_panel_2000_2018.dta` and every file under `outputs/`.
