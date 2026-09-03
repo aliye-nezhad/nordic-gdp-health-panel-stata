@@ -1,0 +1,33 @@
+----------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\ASUS\Desktop\outputs/tables/hausman_test.txt
+  log type:  text
+ opened on:   4 Sep 2026, 00:06:03
+
+. 
+. hausman FE RE, sigmamore
+
+                 ---- Coefficients ----
+             |      (b)          (B)            (b-B)     sqrt(diag(V_b-V_B))
+             |       FE           RE         Difference       Std. err.
+-------------+----------------------------------------------------------------
+         lnl |    18.22104     20.91187       -2.690827        2.495124
+         lna |   -2.569587    -1.750855       -.8187319        .3648366
+         lnp |    .6828569    -.0568954        .7397523        1.133496
+------------------------------------------------------------------------------
+                          b = Consistent under H0 and Ha; obtained from xtreg.
+           B = Inconsistent under Ha, efficient under H0; obtained from xtreg.
+
+Test of H0: Difference in coefficients not systematic
+
+    chi2(3) = (b-B)'[(V_b-V_B)^(-1)](b-B)
+            =  42.87
+Prob > chi2 = 0.0000
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\ASUS\Desktop\outputs/tables/hausman_test.txt
+  log type:  text
+ closed on:   4 Sep 2026, 00:06:03
+----------------------------------------------------------------------------------------------------

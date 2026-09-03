@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\ASUS\Desktop\outputs/tables/descriptive_statistics.txt
+  log type:  text
+ opened on:   4 Sep 2026, 00:06:02
+
+. 
+. summarize lngdp lnl lna lnp
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       lngdp |         76    26.46655    .3880109   25.55722   27.09802
+         lnl |         76    4.384288    .0197553   4.338502   4.415927
+         lna |         76    3.976081    .0530541   3.900879   4.109929
+         lnp |         76    14.52629    1.969233   11.15124   16.13547
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\ASUS\Desktop\outputs/tables/descriptive_statistics.txt
+  log type:  text
+ closed on:   4 Sep 2026, 00:06:02
+----------------------------------------------------------------------------------------------------

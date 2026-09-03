@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\ASUS\Desktop\outputs/tables/correlation_matrix.txt
+  log type:  text
+ opened on:   4 Sep 2026, 00:06:02
+
+. 
+. correlate lngdp lnl lna lnp
+(obs=76)
+
+             |    lngdp      lnl      lna      lnp
+-------------+------------------------------------
+       lngdp |   1.0000
+         lnl |   0.7756   1.0000
+         lna |   0.3671   0.6019   1.0000
+         lnp |   0.2176   0.5024   0.1190   1.0000
+
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\ASUS\Desktop\outputs/tables/correlation_matrix.txt
+  log type:  text
+ closed on:   4 Sep 2026, 00:06:02
+----------------------------------------------------------------------------------------------------
