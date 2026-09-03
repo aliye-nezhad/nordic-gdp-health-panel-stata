@@ -1,0 +1,15 @@
+# Stata temporary files
+*.stswp
+*.tmp
+*.gph
+
+# Office temporary files
+~$*.xlsx
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor backup files
+*.bak
+*~
