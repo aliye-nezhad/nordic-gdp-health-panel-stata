@@ -77,11 +77,8 @@ nordic-gdp-health-panel-stata/
 └── outputs/
     ├── figures/
     │   ├── age_dependency_by_country.png
-    │   ├── fe_residuals_vs_fitted.png
     │   ├── life_expectancy_by_country.png
     │   └── log_gdp_by_country.png
-    ├── logs/
-    │   └── nordic_panel_analysis.log
     └── tables/
         ├── correlation_matrix.txt
         ├── descriptive_statistics.txt
