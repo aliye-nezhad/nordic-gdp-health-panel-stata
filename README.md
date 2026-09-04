@@ -41,10 +41,7 @@ and creates the logarithmic variables directly in Stata.
 | `country_id` | Country identifier | Panel dimension |
 | `year` | Calendar year | Time dimension |
 
-The workbook does not document source URLs, indicator codes, or a retrieval
-date. It also contains an apparent scale inconsistency in Denmark's population
-field. The values are preserved for replication, but the results should not be
-treated as validated substantive evidence. See [`data/README.md`](data/README.md).
+The original workbook does not include complete metadata documentation (such as source URLs, indicator codes, or retrieval dates). The dataset is therefore preserved as provided for replication of the original workflow. During validation, a potential scale inconsistency was identified in Denmark's population variable; this issue is documented and should be considered when interpreting substantive results. See [`data/README.md`](data/README.md).
 
 ## Empirical Workflow
 
