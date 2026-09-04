@@ -37,15 +37,11 @@ The dataset is strongly balanced:
 
 ## Provenance and Validation Limitation
 
-The historical workbook does not contain source URLs, indicator codes,
-retrieval dates, or a complete data dictionary. The repository therefore does
-not claim that the values form a fully validated research dataset.
+The historical workbook does not contain complete source documentation, including source URLs, indicator codes, retrieval dates, or a full data dictionary. The repository therefore treats the workbook as a historical replication input rather than a fully documented research dataset.
 
-Denmark's population field ranges from approximately 69,650 to 71,625, whereas
-the other countries' population fields are recorded in millions. This appears
-to be a scale or variable-definition inconsistency. It is deliberately not
-corrected so that the repository reproduces the historical exercise. Results
-that depend on this field require particular caution.
+During validation, Denmark's population field was found to range from approximately 69,650 to 71,625, while the other countries' population fields are recorded in millions. This appears to indicate a scale or variable-definition inconsistency. The values are deliberately preserved without correction to maintain reproducibility of the historical workflow.
+
+Specifications including the population variable should therefore be interpreted with caution.
 
 ## Reproducibility
 
