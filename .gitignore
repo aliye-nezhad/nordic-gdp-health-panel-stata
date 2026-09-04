@@ -1,23 +1,11 @@
-# Dynare-generated working files
-*.m~
-*.asv
-*.log
-*.mat
-*.eps
-*.fig
-*.jnl
-*.mex*
-*.o
-*.obj
-*_results.mat
+# Stata temporary files
+*.stswp
+*.tmp
 
-# Dynare-generated model directories and MATLAB packages
-models/+speculation_money_creation_*/
-models/speculation_money_creation_*/
-models/speculation_money_creation_q*.m
-models/speculation_money_creation_q*_IRF_*.*
-
-# Operating-system and editor files
+# Operating-system files
 .DS_Store
 Thumbs.db
+
+# Editor files
+*.bak
 *~
