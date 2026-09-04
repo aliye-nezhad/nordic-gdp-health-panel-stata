@@ -117,20 +117,19 @@ tables, figures, dataset, and log.
 
 ## Interpretation and Limitations
 
-This exercise estimates conditional associations only. Important limitations
-include:
+This project estimates conditional associations and is presented as an applied panel-data coding sample rather than a causal research design.
 
-- only four countries and 19 annual observations per country;
-- incomplete provenance for the historical workbook;
-- an apparent scale inconsistency in Denmark's population field;
-- GDP measured in nominal current-dollar levels rather than harmonized real or
-  per-capita terms;
-- strongly trending variables and exposure to common macroeconomic shocks;
-- fragile inference with a very small number of panels; and
-- possible reverse causality and omitted-variable bias.
+Important limitations include:
 
-The FGLS specification is retained as part of the historical workflow, not as a
-claim that it resolves these identification and inference problems.
+- a small panel consisting of four countries with 19 annual observations per country;
+- incomplete provenance documentation for the historical workbook, including missing source metadata;
+- a potential scale inconsistency identified in Denmark's population variable;
+- GDP measured in nominal current-dollar terms rather than real GDP or per-capita measures;
+- strongly trending macroeconomic variables and exposure to common time shocks;
+- limited statistical power given the small number of cross-sectional units; and
+- potential reverse causality and omitted-variable bias.
+
+The FGLS specification is retained as part of the historical econometric workflow and robustness exercise. It should not be interpreted as fully resolving identification, endogeneity, or inference limitations.
 
 ## Skills Demonstrated
 
